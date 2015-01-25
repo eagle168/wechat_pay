@@ -29,7 +29,7 @@ module WechatPay
 
       {
         sign:       sign,
-        package:    attrs[:package],
+        package_value:    attrs[:package],
         nonce_str:  attrs[:noncestr],
         prepay_id:  attrs[:prepayid],
         timestamp:  attrs[:timestamp],
